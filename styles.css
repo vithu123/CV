@@ -13,7 +13,6 @@ nav {
     color: #fff;
     padding: 20px 0;
 }
-/* Style the top navigation bar */
 .topnav {
     overflow: hidden;
     background: #333;
@@ -22,6 +21,7 @@ nav {
     top: 0;
     z-index: 1;
 }
+
 
 /* Style the topnav links */
 .topnav a{
@@ -33,9 +33,7 @@ nav {
     text-decoration: none;
 }
 
-.topnav .material-icons{
-    padding: 11px 16px;
-}
+
 
 /* Change color on hover */
 .topnav a:hover {
@@ -44,13 +42,13 @@ nav {
 }
 
 .left-side {
-    word-wrap: break-word;
-    display: flex;
+    /*word-wrap: break-word;*/
+    /*display: flex;*/
     float: left;
     width: 25%;
 }
 
-/* Right column */
+
 .right-side {
     float: left;
     width: 75%;
@@ -100,6 +98,7 @@ h2 {
 }
 
 table {
+    max-width: 100%;
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
@@ -113,20 +112,14 @@ table tr {
 table tr td:first-child {
     font-weight: bold;
 }
-
-ul {
-    list-style-type: square;
-    margin: 0;
-    padding: 0;
-}
-
-ul li {
-    margin: 10px 0;
-}
-form {
+/*
+.footer {
+    padding: 20px;
     text-align: center;
-    background: var(#333);
-}
+    color: #fff;
+    background: #333;
+    
+}*/
 
 /* Mobile Styles */
 @media (max-width: 1000px) {
@@ -162,14 +155,6 @@ form {
     }
   }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 20px;
-}
 
 .bar {
     width: 100%;

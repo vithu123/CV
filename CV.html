@@ -10,14 +10,14 @@
 
 <body>
     <header>
-        <nav class="topnav">
-            <a href="CV.html">CV</a>
-            <a href="blog.html">Projekte</a>
-           
-        </nav>
+        
     </header>
+    <nav class="topnav">
+        <a href="CV.html">CV</a>
+        <a href="blog.html">Projekte</a>
+        
+    </nav>
 
-   
     <div class="row">
         <div class="left-side">
             <section id="personal-info">
@@ -26,24 +26,29 @@
                     <img src="meinAvatar.jpg" alt="Vithursen Murugaravi" class="profile-img">
                 </div>
                 
-                <table>
+                <div>
                     <tr>
                         <td><strong>Geboren:</strong></td>
                         <td>09. Februar 2001 in Biel</td>
                     </tr>
+                    <br>
                     <tr>
                         <td><strong>Adresse:</strong></td>
                         <td>Unterworbenstasse 5, 3252 Worben</td>
                     </tr>
+                    <br>
                     <tr>
                         <td><strong>Mobile:</strong></td>
                         <td>076 530 26 65</td>
                     </tr>
+                    <br>
                     <tr>
                         <td><strong>E-Mail:</strong></td>
                         <td><a href="mailto:vithursen.ravi@gmail.com">vithursen.ravi@gmail.com</a></td>
                     </tr>
-                </table>
+                </div>
+                  
+                
             </section>
         </div>
         
@@ -68,7 +73,12 @@
                 <h2>Berufserfahrung</h2>
                 <table>
                     <tr>
-                        <td><strong>Seit 09/2022</strong></td>
+                        <td><strong>Seit 5/2024</strong></td>
+                        <td>Contelec AG</td>
+                        <td>Elektroniker Tester</td>
+                    </tr>
+                    <tr>
+                        <td><strong>09/2022-5/2024</strong></td>
                         <td>MicroContact AG</td>
                         <td>Sondermaschinenbauer</td>
                     </tr>
@@ -124,40 +134,48 @@
                         <p>C++</p>
                         <div class="bar" data-progress="80%"></div>
                     </td>
+                    <td>
+                        <p>Java</p>
+                        <div class="bar" data-progress="80%"></div>
+                    </td>
                 </tr>
             </section>
 
             <section id="hobbies">
                 <h2>Hobbys</h2>
                 <tr>
-                    <td>Robotik-Entwicklung</td>
-                    <td>3D Game & Anwendungen entwickeln</td>
-                    <td>CNC/3D-Drucker</td>
+                    <td><p>Robotik-Entwicklung</p></td>
+                    <td><p>3D Game & Anwendungen entwickeln</p></td>
+                    <td><p>CNC/3D-Drucker</p></td>
                 </tr>
             </section>
         </div>
-        
     </div>
+        
+    
+        
+        
+        
     <footer>
-        <form name="form1" onsubmit="return pruefen()">
-            Name:      <input name="Namensfeld" type="text"><br>
-            Anschrift: <input name="Anschriftsfeld" type="text"><br>
-            E-Mail:    <input name="EMailfeld" type="text"><br>
-            Betreff:   <select name="Betreff">
-                        <option value="nichts">Bitte wählen</option>
-                        <option value="Anfrage">Anfrage</option>
-                        <option value="Bestellung">Bestellung</option>
-                        <option value="Hinweis">Hinweis</option>
-                       </select><br>
-            Newsletter abonieren:
-                       <input type="Radio" name="News" value="ja"> ja / 
-                       nein <input type="Radio" name="News" value="nein">
-                       <br>
-            Text:      <textarea name="Eingabe" cols="30" rows="3">
-                       </textarea><br>
-            <input type="Submit"><input type="reset">
-           </form>
+        
+        <p>S</p>
+        
+        <section id="footer">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="006ed92c-7152-4034-b9a4-de7a9e33d753">
+                Name:   <input type="text" name="name" required><br>
+                E-Mail: <input type="email" name="email" required><br><br>
+                Text:   <textarea name="message" required></textarea>
+                        <br>
+                        <button type="submit">Submit Form</button>
+            </form>
+        </section>
     </footer>
+
+
+
+
+
 
 </body>
 
